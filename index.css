@@ -132,12 +132,33 @@ header {
   height: 350px;
   background: #000;
   margin-bottom: 40px;  
-  display: flex;  
+  display: flex;
 }
 .juego div{
-  flex: 1;
   padding: 20px;
   border: 1px solid #ccc;
+}
+.descripcion_game{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.game{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.game img {
+  align-items: center;
+  max-width: 45%;
+  max-height: 100%;
+  margin-bottom: 10px;
 }
 
 .social {
