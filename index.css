@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #ffffff;
 }
 
 body {
@@ -10,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #a4978e;
+  color: #ffffff;
 }
 .container{
   width: 90%;
@@ -43,11 +43,9 @@ nav ul {
   flex: 1;
   margin-left: 20px;
 }
-
 nav ul li {
   margin-right: 20px;
 }
-
 nav ul li a {
   text-decoration: none;
   color: white;
@@ -56,27 +54,6 @@ nav ul li a {
 header {
   text-align: center;
   padding: 50px;
-}
-
-.books {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.book {
-  background-color: #ffffff;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.book img {
-  max-width: 100%;
-  max-height: 300px;
-  margin-bottom: 10px;
 }
 
 .principal {
@@ -105,6 +82,38 @@ header {
   justify-content: flex-end;
   gap: 10px;
 }
+.principal div a{
+  color: #ffffff;
+}
+
+.books {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px, 20px;
+}
+
+.book {
+  background-color: #ffffff;
+  color: #132226;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex-basis: calc(25% - 20px);
+  position: relative;
+}
+.book img {
+  max-width: 100%;
+  max-height: 300px;
+  margin-bottom: 10px;
+}
+.book p {
+  max-height: 90px;
+  overflow: hidden;
+}
 
 .btn{
   cursor: pointer;
@@ -119,6 +128,7 @@ header {
 }
 
 .social {
+  margin-top: 30px;
   background: #2f362f;
   color: #ffffff;
   font-size: 12px;
