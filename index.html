@@ -5,61 +5,97 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book Store</title>
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!-- FONT AWESOME (iconos) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Catálogo</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-    <header>
-      <h1>Bienvenido a Book Store</h1>
-    </header>
-    <main>
-      <section class="books">
-        <div class="book">
-          <img src="img/book1.jpg" alt="Libro 1" />
-          <h2>Libro 1</h2>
-          <p>Descripción del libro 1.</p>
-          <button class="change-button">Cambiar Estilo</button>
-        </div>
-        <div class="book">
-          <img src="img/book2.jpg" alt="Libro 2" />
-          <h2>Libro 2</h2>
-          <p>Descripción del libro 2.</p>
-          <button class="change-button">Cambiar Estilo</button>
-        </div>
-        <div class="book">
-          <img src="img/book2.jpg" alt="Libro 2" />
-          <h2>Libro 2</h2>
-          <p>Descripción del libro 2.</p>
-          <button class="change-button">Cambiar Estilo</button>
-        </div>
-        <div class="book">
-          <img src="img/book2.jpg" alt="Libro 2" />
-          <h2>Libro 2</h2>
-          <p>Descripción del libro 2.</p>
-          <button class="change-button">Cambiar Estilo</button>
-        </div>
-        <div class="book">
-          <img src="img/book2.jpg" alt="Libro 2" />
-          <h2>Libro 2</h2>
-          <p>Descripción del libro 2.</p>
-          <button class="change-button">Cambiar Estilo</button>
-        </div>
-        <div class="book">
-          <img src="img/book2.jpg" alt="Libro 2" />
-          <h2>Libro 2</h2>
-          <p>Descripción del libro 2.</p>
-          <button class="change-button">Cambiar Estilo</button>
-        </div>
-      </section>
-    </main>
+    <div class="container">
+      <nav>
+        <img src="img/Logo.png" alt="BookStore LOGO"/>
+        <ul>
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#">Catálogo</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+          <li>
+            <a href="#">More</a>
+          </li>
+        </ul>
+        <ul class="nav-menu-right">
+          <li>
+            <a href="#"></a>
+            <i class="fas fa-search"></i>
+          </li>
+        </ul>
+      </nav>
+      
+      <header>
+        <h1>Bienvenido a Book Store</h1>
+      </header>
+
+      <hr>
+
+      <main>
+        <section class="principal">
+          <div>
+            <h2>Book Info</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cupiditate natus maxime cum vitae optio hic quos, rerum ipsam esse, nemo enim nihil doloremque atque dicta quas tenetur ipsa nisi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores sequi in perspiciatis quisquam distinctio! Voluptatibus.</p>
+            <a href="#" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
+          </div>
+        </section>
+
+        <section class="books">
+          <div class="book">
+            <img src="img/book1.jpg" alt="Libro 1" />
+            <h2>Libro 1</h2>
+            <p>Descripción del libro 1.</p>
+            <button class="change-button">Cambiar Estilo</button>
+          </div>
+          <div class="book">
+            <img src="img/book2.jpg" alt="Libro 2" />
+            <h2>Libro 2</h2>
+            <p>Descripción del libro 2.</p>
+            <button class="change-button">Cambiar Estilo</button>
+          </div>
+          <div class="book">
+            <img src="img/book2.jpg" alt="Libro 2" />
+            <h2>Libro 2</h2>
+            <p>Descripción del libro 2.</p>
+            <button class="change-button">Cambiar Estilo</button>
+          </div>
+          <div class="book">
+            <img src="img/book2.jpg" alt="Libro 2" />
+            <h2>Libro 2</h2>
+            <p>Descripción del libro 2.</p>
+            <button class="change-button">Cambiar Estilo</button>
+          </div>
+          <div class="book">
+            <img src="img/book2.jpg" alt="Libro 2" />
+            <h2>Libro 2</h2>
+            <p>Descripción del libro 2.</p>
+            <button class="change-button">Cambiar Estilo</button>
+          </div>
+          <div class="book">
+            <img src="img/book2.jpg" alt="Libro 2" />
+            <h2>Libro 2</h2>
+            <p>Descripción del libro 2.</p>
+            <button class="change-button">Cambiar Estilo</button>
+          </div>
+        </section>
+      </main>
+    </div>
 
     <div class="social">
       <div class="social-container">
