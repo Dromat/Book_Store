@@ -84,6 +84,7 @@ header {
 }
 .principal div a{
   color: #ffffff;
+  text-decoration: none;
 }
 
 .books {
