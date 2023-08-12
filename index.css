@@ -127,6 +127,19 @@ header {
   margin: 10px 0px;
 }
 
+.juego{
+  width: 100%;
+  height: 350px;
+  background: #000;
+  margin-bottom: 40px;  
+  display: flex;  
+}
+.juego div{
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
 .social {
   margin-top: 30px;
   background: #2f362f;
