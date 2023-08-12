@@ -114,6 +114,15 @@ header {
   max-height: 90px;
   overflow: hidden;
 }
+.book button {
+  margin-top: 5px;
+  background-color: #132226;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 .btn{
   cursor: pointer;
